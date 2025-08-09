@@ -22,17 +22,4 @@ else
   outcome = "won"
 end 
 
-  "
-      <h2>
-  We played rock!
-</h2>
-
-<h2>
-  They played #{comp_move}!
-</h2>
-
-<h2>
-  We #{outcome}!
-</h2>
-"
-end 
+erb(:zebra)
